@@ -14,4 +14,5 @@ end
 def move(board, position, xo = "X")
     idx = input_to_index(position)
     board[idx] = xo
+    return board
 end
