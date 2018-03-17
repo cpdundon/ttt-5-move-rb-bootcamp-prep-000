@@ -11,6 +11,6 @@ def input_to_index(input)
   rtn = input.to_i - 1 
 end
 
-def move()
-  
+def move(board, position, xo)
+    
 end
